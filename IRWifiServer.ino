@@ -124,30 +124,36 @@ void loop() {
         if (currentLine.endsWith("GET /Power"))  //(Press Power Button)
         {
           IrSender.sendSony(0x1, 0x15, 2, 12);
+          delay(200);
         }
 
         if (currentLine.endsWith("GET /Home"))  //(Press Home)
         {
           IrSender.sendSony(0x1, 0x60, 2, 12);
+          delay(200);
         }
 
         if (currentLine.endsWith("GET /VolumeUp"))  //(Press Volume Up)
         {
           IrSender.sendSony(0x1, 0x12, 2, 12);
+          delay(200);
         }
 
         if (currentLine.endsWith("GET /VolumeDown"))  //(Press Volume Down)
         {
           IrSender.sendSony(0x1, 0x13, 2, 12);
+          delay(200);
         }
 
         if (currentLine.endsWith("GET /ChannelUp"))  //(Press Channel Up)
         {
           IrSender.sendSony(0x1, 0x10, 2, 12);
+          delay(200);
         }
         if (currentLine.endsWith("GET /ChannelDown"))  //(Press Channel Down)
         {
           IrSender.sendSony(0x1, 0x11, 2, 12);
+          delay(200);
         }
 /*
         // Check to see if the client request was "GET /H" or "GET /L":
