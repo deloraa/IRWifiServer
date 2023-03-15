@@ -34,8 +34,8 @@ ported for sparkfun esp32
 #include <IRremote.hpp>
 
 
-const char* ssid = "MyAltice 68f99b";
-const char* password = "maroon-677-184";
+const char* ssid = "your ssid";
+const char* password = "your password";
 
 WiFiServer server(80);
 
